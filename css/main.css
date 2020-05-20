@@ -1,0 +1,52 @@
+body {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-color: #f5f5f5;	
+}
+
+/* Customize main */
+main {
+	padding-top: 20px;
+}
+/* Customize Title */
+#title {
+	text-align: center;
+	font-weight: bolder;	
+}
+
+/* Customize description */
+#description {
+	text-align: center;
+	font-size: 25px;
+	font-weight: 100;
+}
+
+/* Customize Container */
+.container {
+	background-color: #399fa72f;
+	width: max-content;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 20px;
+}
+
+/* Customize Survey Form */
+#survey-form {
+	padding: 25px;
+}
+
+/* Customize Radio Button */
+input[type="radio"] {
+	margin-right: 10px;
+	transform: scale(2.0);
+}
+
+/* Customize CheckBox */
+input[type="checkbox"] {
+	margin-right: 10px;
+	transform: scale(2.0);
+}
+
+/* Customize Submit Button */
+#submit {
+    width: -webkit-fill-available;
+}
